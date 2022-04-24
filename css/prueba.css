@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family:"futura medium";
+    background-color:#F5EEDC ;   
+}
+@font-face {
+    font-family:"futura medium";
+    src: url(../font/futura\ medium\ bt.ttf);
+}
+
+/*---HEADER/SECCTION/INDEX---*/
+.Todo{
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    }
+.Section h1{
+    text-align: center;
+    margin: 50px;
+    font-size: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#97BFB4;
+    grid-area: Header;
+}
+
+header img{
+    width:  250px;
+    height: 150px;
+}
+header nav{
+    width: 50%;
+    margin-right: 25px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+header nav ul li{
+    margin: 10px;
+   }
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #FFD07F;
+}
+
+main{
+    grid-area: main;
+}
+.Section img{
+    position: relative;
+    left: 50px;  
+    margin: 50px; 
+}
+
+.DestacadoDelMes{
+    display: flex;
+}
+.DestacadoDelMes h2{
+    text-decoration: none;
+}
+
+.Peru img{
+    width: 500px;
+    height:500px;
+}
+.Peru{
+    margin: 50px;
+}
+.Hawaii img{
+    width: 500px;
+    height:500px;
+}
+.Hawaii{
+    margin: 50px;
+}
+.Cuba{
+    margin: 40px;
+
+}
+.Cuba img{
+    width: 500px;
+    height:500px;
+}
+
+/*---MAIN/NORTEAMERICA---*/
+.nah1{
+    text-align: center;
+    margin: 25px;
+}
+.nadiv1{
+    display: flex;
+}
+.nadiv1 p{
+    padding: 10px;
+    text-align: center;
+}
+
+/*---MAIN/SURAMERICA---*/
+.h1Su{
+    text-align: center;
+    margin: 50px;
+}
+.SuDiv1{
+    display: flex;
+}
+.SuDiv1 p{
+    padding: 10px;
+    text-align: center;
+}
+
+/*---Hawaii---*/
+.Hawai1 h1{
+    text-align: center;
+    padding: 10px;
+}
+.Hawai1 p{
+    padding: 20px;
+}
+.Hawai1 ul li {
+    text-align:center;
+
+}
+/*----Peru---*/
+
+.PeruMain h1{
+    text-align: center;
+    padding: 10px;
+}
+.PeruMain p{
+    padding: 20px;
+}
+.PeruMain ul li{
+    text-align:left;
+    padding: 2x;
+
+    }
+.PeruMain h2{
+    padding: 10px;
+}
+
+
+/*---Argentina---*/
+.ArgentianMain h1{
+    text-align: center;
+    padding: 10px;  
+}
+.ArgentianMain ul li{
+    text-align: left;
+    padding: 2px;
+}
+.ArgentianMain p{
+    padding: 20px;
+}
+.ArgentianMain h2{
+    padding: 10px;
+}
+
+/*----FOOTER---*/
+
+footer{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#97BFB4;
+    height: 30px;
+    grid-area: footer;
+}
+
+
+
+
